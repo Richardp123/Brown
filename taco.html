@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Week 5</title>
+        <style>
+             #div1 {
+        width: 80%;
+        height: 800px;
+        background-image: url('fbat.png'), url('nightsky.jpg');
+        background-position: 50% 50%, center bottom;
+        background-repeat: no-repeat, no-repeat;
+        background-size: 250px 250px, 100% auto;
+      }
+              #div1 {
+        -webkit-clip-path: circle(30% at 50% 50%);
+        clip-path: circle(50% at 50% 50%);
+      }
+        #fire : {
+        width: 100%;
+        height: 100%px;
+        -webkit-filter:blur(5px);
+        background-image: url("john.jpg");
+
+        background-repeat: repeat;
+            
+        </style>
+    
+    </head>
+    
+    <body>
+     
+        <div id="fire">
+             </div>
+        <div id="div1">
+         <clipPath id="svgPath1">
+        <circle stroke="#000000" stroke-miterlimit="10" cx="290" cy="160" r="130" />
+        </clipPath>
+         </div>
+        
+   
+            
+        
+    </body>
+</html>
